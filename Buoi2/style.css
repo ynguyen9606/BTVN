@@ -1,0 +1,146 @@
+.container {
+    max-width: 1100px;
+    background-color:rgb(255, 255, 255);
+    height:100%;
+    margin:auto;
+    padding: 40px 50px;
+}
+.top-header {
+    padding-bottom:50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name-symbol {
+    border:2px solid black;
+    border-radius: 5px ;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding : 5px;
+    padding-left: 10px;
+    height: 30px;
+    width: 20px;
+    font-size: 29px;
+    felx:1;
+}
+a {
+    text-decoration: none;
+    box-shadow: 0 3px rgb(255, 255, 255);
+    padding: 4px;
+    color: black;
+}
+.user {
+    display: flex;
+    align-items: center;
+    font-family:'inter',sans-serif;
+    display: flex;
+}
+.full-name {
+   flex:3;
+   margin-left: 15px;
+}
+.icon-container {
+    display: flex;
+    float: right;
+    gap: 10px;
+}
+.icon-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(230, 86, 86);
+    color: rgb(255, 255, 255);
+    border: 1px solid  rgb(230, 86, 86);
+    border-radius: 50%;
+    font-size: 12px;
+    width: 15px;
+    height: 15px;
+}
+
+.web {
+    display: flex;
+}
+.web-introduction {
+    display: inline-block;
+    max-width: 500px;
+    margin-left: 100px;
+    flex: 6;
+}
+.img-container {
+    max-width: 500px;
+    display: inline-block;
+    flex: 4;
+}
+.introduction {
+    font-size: 48px;
+    margin-top: 70px;
+    max-width: 460px;
+    font-family:'inter',sans-serif;
+}
+ul {
+    list-style-type: none;
+}
+.number {
+    color: brown;
+    font-size:35px;
+    display: block;
+}
+.HI-THERE{
+    font-size:16px;
+}
+.text {
+    font-size: 10px;
+}
+.parameters {
+    margin-top: 50px;
+    margin-left: -40px;
+}
+
+.heading {
+    box-shadow: 0 3px rgb(255, 0, 0);
+}
+
+span {
+    text-decoration: none;    
+    padding: 4px;
+    color: black;
+}
+.ABOUT-ME {
+    padding-bottom: 40px;
+}
+.download {
+    padding-bottom: 40px;
+}
+.btn-download {
+    margin: auto;
+    width: 8%;
+    border: 3px solid #f8052e;
+    border-radius: 15px;
+    padding: 10px;
+}
+.all-skills {
+    display: flex;
+}
+.CORE-SKILLS {
+    flex: 1;
+    margin-right: 20px;
+}
+.OTHER-SKILLS {
+    flex: 1;
+}
+
+.list-skills {
+    padding-left: 0px;
+}
+
+.skill {
+    display: inline-flex;
+    margin: 5px 3px;
+}
+
+.item-skill {
+    padding: 5px;
+    border: 1px solid #e9e5e5;
+    border-radius: 10px;
+    font-size: 15px;
+}
