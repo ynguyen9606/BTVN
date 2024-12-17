@@ -56,6 +56,10 @@ a {
     width: 15px;
     height: 15px;
 }
+.icon-style {
+    color: #ffffff; 
+    font-size: 15px;
+}
 
 .web {
     display: flex;
